@@ -75,6 +75,7 @@ class _WeatherState extends State<Weather> {
   int g = 0;
   int b = 255;
   double o = 0.5;
+
   @override
   void initState() {
     super.initState();
@@ -1014,5 +1015,6 @@ class _WeatherState extends State<Weather> {
         Error = 'Location not found!';
       });
     }
+    i = 0;
   }
 }
